@@ -1,0 +1,13 @@
+data/raw/survey_2024.csv filter=lfs diff=lfs merge=lfs -text
+data/raw/survey_2023.csv filter=lfs diff=lfs merge=lfs -text
+data/raw/survey_2022.csv filter=lfs diff=lfs merge=lfs -text
+data/raw/survey_2021.csv filter=lfs diff=lfs merge=lfs -text
+data/clean/final_df_21.csv filter=lfs diff=lfs merge=lfs -text
+data/clean/final_df_22.csv filter=lfs diff=lfs merge=lfs -text
+data/clean/final_df_23.csv filter=lfs diff=lfs merge=lfs -text
+data/clean/final_df_24.csv filter=lfs diff=lfs merge=lfs -text
+data/clean/cleaned_df_21.csv filter=lfs diff=lfs merge=lfs -text
+data/clean/cleaned_df_22.csv filter=lfs diff=lfs merge=lfs -text
+data/clean/cleaned_df_23.csv filter=lfs diff=lfs merge=lfs -text
+data/clean/cleaned_df_24.csv filter=lfs diff=lfs merge=lfs -text
+data/clean/final_merged_df_2021_2024.csv filter=lfs diff=lfs merge=lfs -text
