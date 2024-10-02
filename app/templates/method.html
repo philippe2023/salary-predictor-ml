@@ -131,46 +131,85 @@
                     >
                     </li>
                     <li class="relative">
-                    <button
-                        data-target="megamenu"
-                        class="dropdown-toggle flex items-center justify-between text-gray-500 text-sm lg:text-base font-medium hover:text-prime-blue-700 transition-all duration-500 lg:mr-6 lg:mb-0 mr-auto lg:text-left  lg:m-0 hover:text-gray-900"
-                    >
-                        Products
-                        <svg
-                        class="w-3 h-2 ml-1.5 dropdown-active-rotate-180"
-                        width="10"
-                        height="6"
-                        viewBox="0 0 10 6"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                        >
-                        <path
-                            d="M1 1L3.58579 3.58579C4.25245 4.25245 4.58579 4.58579 5 4.58579C5.41421 4.58579 5.74755 4.25245 6.41421 3.58579L9 1"
-                            stroke="currentColor"
-                            stroke-width="1.6"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                        ></path>
-                        </svg>
-                    </button>
-                    <!-- Dropdown menu -->
-                    <div
-                        id="megamenu"
-                        aria-labelledby="megamenu"
-                        class="animate-fade z-10 relative lg:absolute top-2 lg:top-14  lg:-left-20 bg-white rounded-lg shadow-[0px_15px_30px_0px_rgba(16,24,40,0.1)] xl:p-8 lg:p-4 p-2 lg:min-w-[800px] md:min-w-[500px] min-w-full open hidden"
-                    >
-                        <div class="flex flex-col sm:flex-row lg:justify-between">
-                        <ul class="text-sm text-gray-700 lg:w-1/2">
-                            <h6 class="font-medium text-sm text-gray-500 mb-2">
-                            Features
-                            </h6>
-                            <li class="">
+                        <button data-target="megamenu" class="dropdown-toggle flex items-center justify-between text-gray-500 text-sm lg:text-base font-medium hover:text-prime-blue-700 transition-all duration-500 lg:mr-6 lg:mb-0 mr-auto lg:text-left  lg:m-0 hover:text-gray-900">
+                            Products
+                            <svg
+                            class="w-3 h-2 ml-1.5 dropdown-active-rotate-180"
+                            width="10"
+                            height="6"
+                            viewBox="0 0 10 6"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            >
+                            <path
+                                d="M1 1L3.58579 3.58579C4.25245 4.25245 4.58579 4.58579 5 4.58579C5.41421 4.58579 5.74755 4.25245 6.41421 3.58579L9 1"
+                                stroke="currentColor"
+                                stroke-width="1.6"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            ></path>
+                            </svg>
+                        </button>
+                        <!-- Dropdown menu -->
+                        <div id="megamenu" aria-labelledby="megamenu" class="animate-fade z-10 relative lg:absolute top-2 lg:top-14  lg:-left-20 bg-white rounded-lg shadow-[0px_15px_30px_0px_rgba(16,24,40,0.1)] xl:p-8 lg:p-4 p-2 lg:min-w-[800px] md:min-w-[500px] min-w-full open hidden">
+                            <div class="flex flex-col sm:flex-row lg:justify-between">
+                            <ul class="text-sm text-gray-700 lg:w-1/2">
+                                <h6 class="font-medium text-sm text-gray-500 mb-2">
+                                Features
+                                </h6>
+                                <li class="">
+                                    <a href="analytics" class="px-2 lg:px-3 py-2 lg:py-5 hover:bg-gray-50 hover:rounded-xl flex items-center transition-all duration-500">
+                                        <div class="bg-emerald-50 rounded-lg w-12 h-12 flex items-center justify-center">
+                                        <svg
+                                            width="38"
+                                            height="38"
+                                            viewBox="0 0 38 38"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                            opacity="0.3"
+                                            d="M25.3333 6.84527C25.3333 5.62971 24.3452 4.6322 23.1365 4.76127C21.1735 4.97089 19.2468 5.46081 17.416 6.21916C14.9059 7.25888 12.6251 8.78283 10.704 10.704C8.78283 12.6251 7.25888 14.9059 6.21916 17.416C5.46081 19.2468 4.97089 21.1735 4.76127 23.1365C4.6322 24.3452 5.62971 25.3333 6.84526 25.3333H23.1324C24.3479 25.3333 25.3333 24.3479 25.3333 23.1324L25.3333 6.84527Z"
+                                            fill="#10B981"
+                                            ></path>
+                                            <path
+                                            d="M31.6668 13.1788C31.6668 11.9632 30.6787 10.9657 29.47 11.0948C27.507 11.3044 25.5803 11.7943 23.7495 12.5527C21.2394 13.5924 18.9586 15.1163 17.0375 17.0375C15.1163 18.9586 13.5924 21.2394 12.5527 23.7495C11.7943 25.5803 11.3044 27.507 11.0948 29.47C10.9657 30.6787 11.9632 31.6668 13.1788 31.6668H29.4659C30.6814 31.6668 31.6668 30.6814 31.6668 29.4659V13.1788Z"
+                                            fill="#10B981"
+                                            ></path>
+                                        </svg>
+                                        </div>
+                                        <div class="ml-4 w-4/5">
+                                        <h5
+                                            class="text-gray-900 text-base mb-1.5 font-semibold"
+                                        >
+                                            Analytics
+                                            <span
+                                            class="bg-indigo-50 text-indigo-500 text-xs font-medium mr-2 px-2.5 py-1 rounded-full h-5 ml-4"
+                                            >New</span
+                                            >
+                                        </h5>
+                                        <p class="text-xs font-medium text-gray-400">
+                                            Analyze the data to make more informed and accurate
+                                            decision
+                                        </p>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul
+                                class="text-sm text-gray-700 dark:text-gray-400 lg:w-1/2"
+                                aria-labelledby="dropdownLargeButton"
+                            >
+                                <h6 class="font-medium text-sm text-gray-500 mb-2">
+                                Tool
+                                </h6>
+                                <li class="">
                                 <a
-                                    href="analytics"
+                                    href="predictor"
                                     class="px-2 lg:px-3 py-2 lg:py-5 hover:bg-gray-50 hover:rounded-xl flex items-center transition-all duration-500"
                                 >
                                     <div
-                                    class="bg-emerald-50 rounded-lg w-12 h-12 flex items-center justify-center"
+                                    class="bg-indigo-50 rounded-lg w-12 h-12 flex items-center justify-center"
                                     >
                                     <svg
                                         width="38"
@@ -181,12 +220,12 @@
                                     >
                                         <path
                                         opacity="0.3"
-                                        d="M25.3333 6.84527C25.3333 5.62971 24.3452 4.6322 23.1365 4.76127C21.1735 4.97089 19.2468 5.46081 17.416 6.21916C14.9059 7.25888 12.6251 8.78283 10.704 10.704C8.78283 12.6251 7.25888 14.9059 6.21916 17.416C5.46081 19.2468 4.97089 21.1735 4.76127 23.1365C4.6322 24.3452 5.62971 25.3333 6.84526 25.3333H23.1324C24.3479 25.3333 25.3333 24.3479 25.3333 23.1324L25.3333 6.84527Z"
-                                        fill="#10B981"
+                                        d="M11.1086 7.89499C11.4505 6.95739 12.342 6.3335 13.34 6.3335H23.5237C25.1727 6.3335 26.3199 7.97275 25.755 9.522L20.5597 23.772C20.2179 24.7096 19.3264 25.3335 18.3284 25.3335H8.14465C6.49564 25.3335 5.34848 23.6942 5.91332 22.145L11.1086 7.89499Z"
+                                        fill="#4F46E5"
                                         ></path>
                                         <path
-                                        d="M31.6668 13.1788C31.6668 11.9632 30.6787 10.9657 29.47 11.0948C27.507 11.3044 25.5803 11.7943 23.7495 12.5527C21.2394 13.5924 18.9586 15.1163 17.0375 17.0375C15.1163 18.9586 13.5924 21.2394 12.5527 23.7495C11.7943 25.5803 11.3044 27.507 11.0948 29.47C10.9657 30.6787 11.9632 31.6668 13.1788 31.6668H29.4659C30.6814 31.6668 31.6668 30.6814 31.6668 29.4659V13.1788Z"
-                                        fill="#10B981"
+                                        d="M17.4416 14.228C17.7835 13.2904 18.675 12.6665 19.673 12.6665H29.8567C31.5057 12.6665 32.6529 14.3058 32.088 15.855L26.8927 30.105C26.5509 31.0426 25.6594 31.6665 24.6614 31.6665H14.4777C12.8286 31.6665 11.6815 30.0273 12.2463 28.478L17.4416 14.228Z"
+                                        fill="#4F46E5"
                                         ></path>
                                     </svg>
                                     </div>
@@ -194,68 +233,84 @@
                                     <h5
                                         class="text-gray-900 text-base mb-1.5 font-semibold"
                                     >
-                                        Analytics
-                                        <span
-                                        class="bg-indigo-50 text-indigo-500 text-xs font-medium mr-2 px-2.5 py-1 rounded-full h-5 ml-4"
-                                        >New</span
-                                        >
+                                        Salary Predictor
                                     </h5>
                                     <p class="text-xs font-medium text-gray-400">
-                                        Analyze the data to make more informed and accurate
-                                        decision
+                                        Try our predictor to discover your potential salary based on your developer experience
                                     </p>
                                     </div>
                                 </a>
-                            </li>
-                        </ul>
-                        <ul
-                            class="text-sm text-gray-700 dark:text-gray-400 lg:w-1/2"
-                            aria-labelledby="dropdownLargeButton"
-                        >
-                            <h6 class="font-medium text-sm text-gray-500 mb-2">
-                            Tool
-                            </h6>
-                            <li class="">
-                            <a
-                                href="predictor"
-                                class="px-2 lg:px-3 py-2 lg:py-5 hover:bg-gray-50 hover:rounded-xl flex items-center transition-all duration-500"
-                            >
-                                <div
-                                class="bg-indigo-50 rounded-lg w-12 h-12 flex items-center justify-center"
-                                >
-                                <svg
-                                    width="38"
-                                    height="38"
-                                    viewBox="0 0 38 38"
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                >
-                                    <path
-                                    opacity="0.3"
-                                    d="M11.1086 7.89499C11.4505 6.95739 12.342 6.3335 13.34 6.3335H23.5237C25.1727 6.3335 26.3199 7.97275 25.755 9.522L20.5597 23.772C20.2179 24.7096 19.3264 25.3335 18.3284 25.3335H8.14465C6.49564 25.3335 5.34848 23.6942 5.91332 22.145L11.1086 7.89499Z"
-                                    fill="#4F46E5"
-                                    ></path>
-                                    <path
-                                    d="M17.4416 14.228C17.7835 13.2904 18.675 12.6665 19.673 12.6665H29.8567C31.5057 12.6665 32.6529 14.3058 32.088 15.855L26.8927 30.105C26.5509 31.0426 25.6594 31.6665 24.6614 31.6665H14.4777C12.8286 31.6665 11.6815 30.0273 12.2463 28.478L17.4416 14.228Z"
-                                    fill="#4F46E5"
-                                    ></path>
-                                </svg>
-                                </div>
-                                <div class="ml-4 w-4/5">
-                                <h5
-                                    class="text-gray-900 text-base mb-1.5 font-semibold"
-                                >
-                                    Salary Predictor
-                                </h5>
-                                <p class="text-xs font-medium text-gray-400">
-                                    Try our predictor to discover your potential salary based on your developer experience
-                                </p>
-                                </div>
-                            </a>
-                            </li>
-                        </ul>
+                                </li>
+                            </ul>
+                            </div>
                         </div>
-                    </div>
+                    </li>
+                    <li class="relative">
+                        <div class="dropdown relative inline-flex">
+                            <button
+                                type="button"
+                                data-target="dropdown-feature"
+                                class="dropdown-toggle flex items-center justify-between text-gray-500 text-sm max-lg:h-max text-center lg:text-base font-medium hover:text-prime-blue-700 transition-all duration-500 mb-2 lg:mr-6 lg:mb-0 mr-auto lg:text-left lg:m-0 hover:text-gray-900"
+                            >
+                                Data
+                                <svg
+                                class="w-3 h-2 ml-1.5  dropdown-active-rotate-180"
+                                width="10"
+                                height="6"
+                                viewBox="0 0 10 6"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                                >
+                                <path
+                                    d="M1 1L3.58579 3.58579C4.25245 4.25245 4.58579 4.58579 5 4.58579C5.41421 4.58579 5.74755 4.25245 6.41421 3.58579L9 1"
+                                    stroke="currentColor"
+                                    stroke-width="1.6"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                ></path>
+                                </svg>
+                            </button>
+                            <div
+                                id="dropdown-feature"
+                                class="dropdown-menu rounded-xl shadow-lg lg:bg-white relative lg:absolute max-lg:-left-14 max-lg:top-2 max-lg:bg-white lg:top-full lg:w-48 mt-2 hidden"
+                                aria-labelledby="dropdown-feature"
+                            >
+                                <ul class="py-2">
+                                    <li>
+                                        <a
+                                        class="block px-6 py-2 hover:bg-gray-100 text-gray-900 font-medium"
+                                        href="https://survey.stackoverflow.co/2024/" target="_blank"
+                                        >
+                                        2024 data
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                        class="block px-6 py-2 hover:bg-gray-100 text-gray-900 font-medium"
+                                        href="https://survey.stackoverflow.co/2023/" target="_blank"
+                                        >
+                                        2023 data
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                        class="block px-6 py-2 hover:bg-gray-100 text-gray-900 font-medium"
+                                        href="https://survey.stackoverflow.co/2022/" target="_blank"
+                                        >
+                                        2022 data
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                        class="block px-6 py-2 hover:bg-gray-100 text-gray-900 font-medium"
+                                        href="https://survey.stackoverflow.co/2021" target="_blank"
+                                        >
+                                        2021 data
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </li>
                 </ul>
                 <a href="/" class="hidden lg:flex items-center">
@@ -270,7 +325,9 @@
                         <button class="group lg:pr-5 lg:pl-3.5 lg:mx-0 mx-auto flex items-center whitespace-nowrap gap-1.5 font-medium text-sm text-gray-400 rounded-lg transition-all duration-300 hover:text-black">
                             <span class="max-lg:hidden">Jean Philippe Auguste</span>
                             <div class='relative'>
-                                <img class='w-10 h-10 rounded-full border-2 border-solid border-gray-500 hover:border-indigo-900' src='https://pagedone.io/asset/uploads/1704275541.png' alt='Bordered rounded avatar'>
+                                <img class='w-10 h-10 rounded-full border-2 border-solid border-gray-500 hover:border-indigo-900' src="{{ url_for('static', filename='images/1.png') }}" alt='Bordered rounded avatar'>
+                                
+
                                 <span class='bottom-0 left-7 absolute  w-3.5 h-3.5 bg-emerald-500 border-2 border-white rounded-full'></span>
                             </div>
                         </button>
@@ -385,10 +442,6 @@
                 </div>
             </div>
         </section>
-                                                
-
-
-
         <!-- Footer Section -->
         <footer class="w-full xl:px-0 px-10">
             <div class="mx-auto max-w-7xl">                  
