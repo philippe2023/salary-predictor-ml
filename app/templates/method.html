@@ -9,7 +9,7 @@
     </head>
     <body>
         <!-- Navbar Section -->
-        <nav class="py-5 border-b-default border-solid bg-white bg-opacity-50 border-gray-200 z-10 w-full bg-inherit lg:fixed" id="topnav">
+        <nav class="py-5 border-b-default border-solid bg-white border-gray-200 z-10 w-full bg-inherit lg:fixed" id="topnav">
             <div class="mx-auto max-w-7xl  lg:px-8">
             <div class="w-full flex flex-col lg:flex-row">
                 <div class="flex justify-between lg:hidden px-4">
@@ -378,12 +378,13 @@
                             <h2 class="font-manrope font-bold text-4xl lg:text-4xl text-black mb-9 max-lg:text-center relative">
                                 Data Preprocessing and Feature Engineering 
                             </h2>
-                            <p class="font-normal text-xl leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto">
-                                In building the salary prediction model, a crucial first step was data cleaning and preparation. 
-                                This involved handling missing values, standardizing the salary data across countries, 
-                                and encoding categorical features such as age ranges, 
-                                job types, and countries using a mix of One-Hot Encoding and Ordinal Encoding. These steps ensured 
-                                that the data was structured properly for training and the model could understand the relationships between features.
+                            <p class="font-normal text-xl leading-8 text-gray-500 max-lg:text-center max-w-3xl mx-auto">
+                                In building the salary prediction model, several data preprocessing techniques were explored, 
+                                including One-Hot Encoding and Ordinal Encoding for categorical features. However, after evaluating 
+                                the performance of different approaches, Label Encoding emerged as the best method for features like 
+                                age ranges, job types, and countries. This process, alongside handling missing values and standardizing 
+                                salary data across countries, ensured the model could effectively capture relationships between features 
+                                for optimal predictions.
                             </p>
                         </div>
                     </div>
